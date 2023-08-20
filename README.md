@@ -20,7 +20,7 @@ Outputs:
 
 <b>Bugs Detection</b>
 <p align = "justify">
-The ALU (Device Under Test) has 3 bugs, namely Subtraction, Logical OR and Logical NAND operations, which were detected by the assertion results as shown in the following screenshot.</p>
+The ALU (Device Under Test) has 3 bugs, namely Subtraction, Logical OR and Logical NAND operations, which were detected by the testbench as shown in the following screenshot.</p>
 <p align = "center">
 <kbd><img src="https://github.com/MayaLasheen/SVA_ALU_Verification/assets/137602736/85fa4327-bc03-4ac3-bbf0-fb1cef440ace" alt="Assertions"/></kbd>
 </p>
@@ -38,5 +38,5 @@ The HTML coverage report as well as detailed coverage report were generated. The
 <p align = "center"><b>Directive Coverage</b></p>
 
 <p align = "center">
-<kbd><img src="https://github.com/MayaLasheen/SVA-ALU-Verification/assets/137602736/dc966898-3a60-4739-ac48-1873fe68352a"/></kbd></p> 
+<kbd><img src="https://github.com/MayaLasheen/SVA-ALU-Verification/assets/137602736/dc966898-3a60-4739-ac48-1873fe68352a" alt"Detailed Coverage Report"/></kbd></p> 
  
