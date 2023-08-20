@@ -37,12 +37,5 @@ The HTML coverage report as well as detailed coverage report were generated. The
 <p align = "center"><b>Directive Coverage</b></p>
 
 <p align = "center">
-<kbd><img src="https://github.com/MayaLasheen/SVA_ALU_Verification/assets/137602736/0e99a683-7b35-4694-a1cc-ed8b800929bd" alt="Directive Coverage"/></kbd></p> 
-
-<p align = "center"><b>Assertion Results</b></p>
-
-<p align = "center">
-<kbd><img src="https://github.com/MayaLasheen/SVA_ALU_Verification/assets/137602736/7e2c4e5d-a2cb-47a7-b867-a588af13dc73" alt="Assertion Results 1"/></kbd></p> 
-
-<p align = "center">
-<kbd><img src="https://github.com/MayaLasheen/SVA_ALU_Verification/assets/137602736/f354c7a2-11bf-4d93-8c87-6e6f8d33c8da" alt="Assertion Results 2"/></kbd></p> 
+<kbd><img src="https://github.com/MayaLasheen/SVA-ALU-Verification/assets/137602736/dc966898-3a60-4739-ac48-1873fe68352a"/></kbd></p> 
+ 
