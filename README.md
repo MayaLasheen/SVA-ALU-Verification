@@ -17,6 +17,7 @@ Outputs:
   <li><i>CarryOut</i>: Carry Out Flag (1-Bit)</li>
   </ul>
   </p>
+
 <b>Bugs Detection</b>
 <p align = "justify">
 The ALU (Device Under Test) has 3 bugs, namely Subtraction, Logical OR and Logical NAND operations, which were detected by the assertion results as shown in the following screenshot.</p>
