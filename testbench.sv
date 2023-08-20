@@ -1,3 +1,5 @@
+`include "transaction.sv"
+
 module testbench;
   
   logic [7:0] A, B;
@@ -8,17 +10,21 @@ module testbench;
   
   logic [8:0] tmp;
   
+  transaction trans;
   ALU DUT (.A(A), .B(B), .ALU_Sel(ALU_Sel), .clk(clk), .ALU_Out(ALU_Out), .CarryOut(CarryOut));
   
   initial clk = 0;
   always #100 clk = ~clk;
   
   initial begin  // Apply inputs.
-    
+    repeat(150)
+    begin
+    trans = new;
+    void'(trans.randomize());
+    A = trans.A;
+    B = trans.B;
+    $display("A = %d, B = %d", A, B);
     @(posedge clk);
-    A = 8'b01101010;
-    B = 8'b00111011;
-
     ALU_Sel = 0; #200;
     ALU_Sel = 1; #200;
     ALU_Sel = 2; #250; // Multiplication has longer delay since it takes the ALU longer time to caluclate the correct output.
@@ -35,8 +41,9 @@ module testbench;
     ALU_Sel = 13; #200;
     ALU_Sel = 14; #200;
     ALU_Sel = 15; #200;
-    ALU_Sel = 0; #200;
-    
+    ALU_Sel = 4'bx; #200;
+    $display("-------------------------------------------------------------");
+    end
     $finish;
   end
 
