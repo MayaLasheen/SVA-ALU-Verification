@@ -1,5 +1,5 @@
-# ALU Verification using SystemVerilog Assertions
-<p align = "justify">A testbench was implemented using SystemVerilog Assertions on Mentor QuestaSim in order to verify an ALU RTL to ensure that the ALU functions correctly and reliably, and to detect the present bugs, if any.</p>
+# ALU: SV Assertions Based Verification
+<p align = "justify">A testbench was implemented using SystemVerilog Assertions on Mentor QuestaSim in order to verify an ALU RTL to ensure that the ALU functions as intended, and to detect any present bugs.</p>
 <p align = "justify">The ALU has 4 input ports and 2 output ports.</p>
 <p align = "justify">
 Inputs:
