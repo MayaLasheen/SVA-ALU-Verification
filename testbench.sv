@@ -198,7 +198,7 @@ module testbench;
     
   Assert_CornerCase1: assert property (CornerCase1)  
     $display("Corner Case 1 Tested"); 
-  Cover_CornerCase1: cover property(CornerCase1);
+//Cover_CornerCase1: cover property(CornerCase1);
 //----------------------------------------------------------------------------------------------
   property CornerCase2;
     @(posedge clk) (A==255 && B==255) |-> ##1 (1'b1);
@@ -206,7 +206,7 @@ module testbench;
     
   Assert_CornerCase2: assert property (CornerCase2)  
     $display("Corner Case 2 Tested");
-  Cover_CornerCase2: cover property(CornerCase2);
+//Cover_CornerCase2: cover property(CornerCase2);
 //----------------------------------------------------------------------------------------------
   //The following assertion checks the default of the case statement; however, it won't be tested since the provided ALU selection lines [0-15] cover all the available values of a 4-bit number. Yet, if the ALU_Sel was changed to be a 5-bit number then the ALU was tested with an ALU_Sel of a number outside range [0-15], then the assertion will be tested.
     
