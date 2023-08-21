@@ -36,7 +36,7 @@ The HTML coverage report as well as detailed coverage report were generated to a
 <p align = "center"><b>HTML Coverage Report</b></p>
 
 <p align = "center">
-<kbd><img src="https://github.com/MayaLasheen/SVA-ALU-Verification/assets/137602736/c91020c7-5708-423d-bcb7-1b562f139822" alt="HTML Coverage Report"/></kbd></p> 
+<kbd><img src="https://github.com/MayaLasheen/SVA-ALU-Verification/assets/137602736/591c23be-e605-4601-8d69-4eca985548a2"/></kbd></p> 
 
 
 <p align = "center"><b>Directive Coverage</b></p>
