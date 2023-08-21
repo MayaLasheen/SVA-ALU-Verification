@@ -30,7 +30,7 @@ The ALU (Device Under Test) has 3 bugs, namely Subtraction, Logical OR and Logic
 
 <b>Coverage</b>
 <p align = "justify">  
-The HTML coverage report as well as detailed coverage report were generated. The detailed coverage report was generated using the <i>coverage report -detail</i> command option.
+The HTML coverage report as well as detailed coverage report were generated to analyze the verification. The detailed coverage report was generated using the <i>coverage report -detail</i> command option.
 </p>
 
 <p align = "center"><b>HTML Coverage Report</b></p>
